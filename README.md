@@ -5,7 +5,7 @@
 주요 추출 조건을 리스트로 등록하고 실행 시 조건에 맞는 데이터를 추출하여 파일로 저장합니다. 
 
 
-# 필터링 조건 : 우량주
+## 필터링 조건 : 우량주
 ## GoodStock_conditions = {                
                 "stockgb": 0,       #0:Kospi/1:Kosdoc
                 "rank":100,         #시총 순위 (최대 500위)
@@ -13,9 +13,9 @@
                 "roe":10            #ROE (기준 이상)
             }
 
-print('### Naver 증권 - 시가총액 기준 Crawling ###')
-crawler.crawlNaver(GoodStock_conditions)
-print('### Naver 증권 - 시가총액 기준 Crawling 완료 ###')
+## print('### Naver 증권 - 시가총액 기준 Crawling ###')
+## crawler.crawlNaver(GoodStock_conditions)
+## print('### Naver 증권 - 시가총액 기준 Crawling 완료 ###')
 
 
 
