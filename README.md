@@ -6,4 +6,8 @@ BeautifulSoup4로 크롤링한 결과를 pandas로 csv 파일로 출력합니다
 Simple하고 강력한 기능으로 투자 주식을 찾아줍니다. 
 
 
-<img src="" alt="run_sample" style="max-width:100%">
+<img src="https://github.com/guslang/NaverFinance_MarketCap_Crawler/blob/master/image/naver_finance_market_cap.png" alt="run_sample" style="max-width:100%">
+
+https://github.com/guslang/NaverFinance_MarketCap_Crawler/blob/master/image/run_processing.png
+
+https://github.com/guslang/NaverFinance_MarketCap_Crawler/blob/master/image/sample_result.png
