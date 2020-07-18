@@ -87,7 +87,7 @@ GoodStock_conditions = {
              }
 # 필터링 조건 : 성장주 
 GrowthStock_conditions = {
-                "stockgb": 0,       #0:Kospi/1:Kosdoc
+                "stockgb": 1,       #0:Kospi/1:Kosdoc
                 "rank":100, 
                 "per":30, 
                 "roe":20
@@ -97,5 +97,6 @@ print('### Naver 증권 - 시가총액 기준 Crawling ###')
 
 # print(GoodStock_conditions.get('rank'))
 crawlNaver(GoodStock_conditions)
+crawlNaver(GrowthStock_conditions)
 # crawlNaver(100, 1, '')
 print('### Naver 증권 - 시가총액 기준 Crawling 완료 ###')
