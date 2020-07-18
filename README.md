@@ -7,16 +7,16 @@
 BeautifulSoup4로 크롤링한 결과를 pandas로 csv 파일로 출력합니다. 
 Simple하고 강력한 기능으로 투자 주식을 찾아줍니다. 
 
-<h1>네이버 시가총액</h1>
+<h2>네이버 시가총액</h2>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/guslang/NaverFinance_MarketCap_Crawler/blob/master/image/naver_finance_market_cap.png">
 <img src="https://github.com/guslang/NaverFinance_MarketCap_Crawler/blob/master/image/naver_finance_market_cap.png" alt="Naver Finanace" style="max-width:100%;"></a>
 <br>
 
-<h1>크롤링 실행 화면</h1>
+<h2>크롤링 실행 화면</h2>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/guslang/NaverFinance_MarketCap_Crawler/blob/master/image/run_processing.png">
 <img src="https://github.com/guslang/NaverFinance_MarketCap_Crawler/blob/master/image/run_processing.png" alt="Naver Finanace" style="max-width:100%;"></a>
 
 <br>
-<h1>주식 추출 결과</h1>
+<h2>주식 추출 결과</h2>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/guslang/NaverFinance_MarketCap_Crawler/blob/master/image/sample_result.png">
 <img src="https://github.com/guslang/NaverFinance_MarketCap_Crawler/blob/master/image/sample_result.png" alt="Naver Finanace" style="max-width:100%;"></a>
