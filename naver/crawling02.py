@@ -85,7 +85,7 @@ GoodStock_conditions = {
                 "per":20, 
                 "roe":1
              }
-# 필터링 조건 : 성장주
+# 필터링 조건 : 성장주 
 GrowthStock_conditions = {
                 "stockgb": 0,       #0:Kospi/1:Kosdoc
                 "rank":100, 
