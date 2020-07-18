@@ -6,6 +6,7 @@
 
 
 <h2> 필터링 조건 : 우량주 </h2>
+<p>
 ## GoodStock_conditions = {                
                 "stockgb": 0,       #0:Kospi/1:Kosdoc
                 "rank":100,         #시총 순위 (최대 500위)
@@ -16,6 +17,7 @@
  print('### Naver 증권 - 시가총액 기준 Crawling ###')
  crawler.crawlNaver(GoodStock_conditions)
  print('### Naver 증권 - 시가총액 기준 Crawling 완료 ###')
+ </p>
 
 
 
