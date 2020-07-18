@@ -13,11 +13,11 @@
                 "per":[10,30],      #PER 최소~최대
                 "roe":10            #ROE (기준 이상)
             }
-<p>
- print('### Naver 증권 - 시가총액 기준 Crawling ###')
- crawler.crawlNaver(GoodStock_conditions)
- print('### Naver 증권 - 시가총액 기준 Crawling 완료 ###')
- </p>
+
+## print('### Naver 증권 - 시가총액 기준 Crawling ###')
+## crawler.crawlNaver(GoodStock_conditions)
+## print('### Naver 증권 - 시가총액 기준 Crawling 완료 ###')
+ 
 
 
 
