@@ -6,8 +6,8 @@
 
 
 <h2> 필터링 조건 : 우량주 </h2>
-
-# GoodStock_conditions = {                
+# '
+GoodStock_conditions = {                
                 "stockgb": 0,       #0:Kospi/1:Kosdoc
                 "rank":100,         #시총 순위 (최대 500위)
                 "per":[10,30],      #PER 최소~최대
