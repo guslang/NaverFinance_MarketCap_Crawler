@@ -1,10 +1,11 @@
 <h1>NaverFinance_MarketCap_Crawler</h1>
 
 <br>
-네이버 금융 시가총액 정보를 가져와서 우량 주식을 찾아주는 크롤링 프로그램입니다. 
-주요 추출 조건을 리스트로 등록하고 실행 시 조건에 맞는 데이터를 추출하여 파일로 저장합니다. 
-BeautifulSoup4로 크롤링한 결과를 pandas로 csv 파일로 출력합니다. 
-Simple하고 강력한 기능으로 투자 주식을 찾아줍니다. 
+Python으로 구현한 주식 종목 추천 프로그램입니다. 
+네이버 금융에서 시가총액 데이터를 크롤링하고 주식 주요지표인 PER/ROE를 이용하여 필터링합니다. 
+
+크롤링은 BeautifulSoup4, 파일 출력은 pandas csv를 이용했습니다. 로직은 package화 했으며,
+main.py에서 추천 조건을 입력할 수 있어서 simple하고 dynamic한 주식을 추천 받을 수 있습니다. 
 
 
 <h2> 필터링 조건 </h2>
