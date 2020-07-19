@@ -4,6 +4,7 @@
 Python으로 구현한 주식 종목 추천 프로그램입니다. 
 네이버 금융에서 시가총액 데이터를 크롤링하고 주식 주요지표인 PER/ROE를 이용하여 필터링합니다. 
 
+<br><br>
 크롤링은 BeautifulSoup4, 파일 출력은 pandas csv를 이용했습니다. 로직은 package화 했으며,
 main.py에서 추천 조건을 입력할 수 있어서 simple하고 dynamic한 주식을 추천 받을 수 있습니다. 
 
