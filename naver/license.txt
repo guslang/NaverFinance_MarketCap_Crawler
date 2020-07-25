@@ -1,7 +1,7 @@
 // Project description
 // ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 // Name: ns_crawler_v1.0.zip 
-// Description: naver-finance market-cap crawler
+// Description: naver-finance market-cap crawler (ns_crawler)
 //
 // Author: guslana (jandbond@gmail.com)
 // Site: https://github.com/guslang   

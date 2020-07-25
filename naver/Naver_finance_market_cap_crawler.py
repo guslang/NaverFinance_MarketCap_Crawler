@@ -15,8 +15,8 @@ def crawlNaver(conditions):
         return
     pages = math.ceil(cdt_rank / 50) + 1  # 페이지당 50개, 소수점은 반올림
     today = datetime.datetime.today().date()
-    kospi_kosdoc = ['Kospi','Kosdoc']    
-    fileName = './' + str(today) + '_' + kospi_kosdoc[conditions['stockgb']]  + '.csv'    
+    kospi_Kosdaq = ['Kospi','Kosdaq']    
+    fileName = './' + str(today) + '_' + kospi_Kosdaq[conditions['stockgb']]  + '.csv'    
     
     i = 0   # 첫 행 체크
     for page in range(1, pages): # 100 = 50 * 2        
@@ -93,14 +93,14 @@ def getStockInfo(tr):
 if __name__ == "__main__":    
     # 필터링 조건 : 우량주
     GoodStock_conditions = {                
-                    "stockgb": 0,       #0:Kospi/1:Kosdoc
+                    "stockgb": 0,       #0:Kospi/1:Kosdaq
                     "rank":200,         #시총 순위
                     "per":[10,20],      #PER 최소~최대
                     "roe":10            #ROE 기준값 ( 예:ROE가 10이상인 주식)
                 }
     # 필터링 조건 : 성장주 
     GrowthStock_conditions = {
-                    "stockgb": 1,       #0:Kospi/1:Kosdoc
+                    "stockgb": 1,       #0:Kospi/1:Kosdaq
                     "rank":500,         #시총 순위
                     "per":[20,200],     #PER 최소~최대
                     "roe":20            #ROE 기준값 ( 예:ROE가 20이상인 주식)
