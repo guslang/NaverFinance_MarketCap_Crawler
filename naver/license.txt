@@ -4,7 +4,7 @@
 // Description: naver-finance market-cap crawler
 //
 // Author: guslana (jandbond@gmail.com)
-// Site: https://github.com/guslang
+// Site: https://github.com/guslang   
 // Copyright (C) 2020 guslang.
 
 Licensetype: GNU General Public License (GPL)
